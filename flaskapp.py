@@ -4,8 +4,8 @@ import ast
 from flask import Flask, flash, redirect, render_template, \
      request, url_for
 s3 = boto3.resource('s3',
-     aws_access_key_id='AKIAJZ3WUC3SUEFNQCZA',
-                       aws_secret_access_key='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')
+     aws_access_key_id='/Security issues/',
+                       aws_secret_access_key='Security Issues')
 # ast.literal_eval()
 # client = boto3.client(
 #     's3',
