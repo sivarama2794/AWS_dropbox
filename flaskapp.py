@@ -10,8 +10,8 @@ s3 = boto3.resource('s3',
 # client = boto3.client(
 #     's3',
 #     # Hard coded strings as credentials, not recommended.
-#     aws_access_key_id='AKIAJZ3WUC3SUEFNQCZA',
-#     aws_secret_access_key='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'
+#     aws_access_key_id='',
+#     aws_secret_access_key=''
 # )
 bucket = s3.Bucket('trailbucket2794')
 
